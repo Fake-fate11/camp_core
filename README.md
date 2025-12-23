@@ -27,6 +27,9 @@ This repository implements the CAMP algorithm for adapting motion prediction mod
     ```
     *Note: Installing as a package ensures all imports relative to `camp_core` resolve correctly.*
 
+## Data Setup
+For data setup, follow the instrcutions from adaptive-prediction/README.md, then change the DATA_ROOT path in follow .sh and .sbatch
+
 ## Project Structure
 
 The project is organized as follows:
