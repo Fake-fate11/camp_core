@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+camp_core/__init__.py
+camp_core.egg-info/PKG-INFO
+camp_core.egg-info/SOURCES.txt
+camp_core.egg-info/dependency_links.txt
+camp_core.egg-info/requires.txt
+camp_core.egg-info/top_level.txt

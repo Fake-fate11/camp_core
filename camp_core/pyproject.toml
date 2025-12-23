@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "camp_core"
+version = "0.0.1"
+description = "Noninvasive Model Adaptation via Two-Stage Optimization"
+readme = ""
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Xinchen Lin", email = "xlin5@cmu.andrew.edu"},
+  {name = "Peter Zhang", email = "pyzhang@cmu.edu"},
+]
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.10",
+  "torch", 
+  "cvxpy>=1.5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+]
+
+[tool.setuptools]
+packages = ["camp_core"]
+
+[tool.setuptools.package-dir]
+camp_core = "camp_core"

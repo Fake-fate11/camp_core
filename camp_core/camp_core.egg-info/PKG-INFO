@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: camp_core
+Version: 0.0.1
+Summary: Noninvasive Model Adaptation via Two-Stage Optimization
+Author-email: Xinchen Lin <xlin5@cmu.andrew.edu>, Peter Zhang <pyzhang@cmu.edu>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.22
+Requires-Dist: scipy>=1.10
+Requires-Dist: torch
+Requires-Dist: cvxpy>=1.5
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"

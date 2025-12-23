@@ -1,38 +1,38 @@
+# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+conda_env/
 
+# IDE
 .vscode/
 .idea/
-.DS_Store
 
-wandb/
+# Project Specific - Large Data & Models
+models/
+trajdata_cache/
+nusc_cache_trajdata/
+plots/
 logs/
+results/
+
+# Large Files
+*.pt
+*.pth
+*.npy
+*.json
+!camp_core/models/production/atom_scales.json # Keep if this is essential config, otherwise ignore
+
+# Slurm
+*.out
+*.err
 *.log
 
-datasets/
-trajdata_cache/
-**/exports/
-**/cache/
-
-models/
-*.pt
-*.npz
-*.tar.gz
-*.pth
-*.ckpt
-*.png
-*.jpg
-
-.ipynb_checkpoints/
-
-build/
-dist/
-plots/
-test_logs/
-test_plots/
-test_sweep/
-traj_cache_nusc_trainval/
-
-run_train.sbatch
-TODO
+# Mac
+.DS_Store
