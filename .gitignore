@@ -28,6 +28,8 @@ results/
 *.npy
 *.json
 !camp_core/models/production/atom_scales.json # Keep if this is essential config, otherwise ignore
+*.pdf
+
 
 # Slurm
 *.out
